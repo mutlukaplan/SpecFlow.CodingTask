@@ -1,4 +1,16 @@
 # SpecFlow.CodingTask
+
+Dependencies;
+
+SpecRun.SpecFlow 3.9.7
+FluentAssertions 5.10.3
+Microsoft.NET.Test.Sdk 16.5.0
+SpecRun.Runner 3.9.7
+SpecFlow.Tools.MsBuild.Generation 3.9.22
+
+Warning; In order to run specflow tests, you must register their web site to open an account to be connected your visual studio account. And u must have a internet connection.
+
+
 Coding Challange 
 
 Scenarios:

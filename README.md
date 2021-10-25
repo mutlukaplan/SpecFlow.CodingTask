@@ -32,8 +32,9 @@ Offers:
 - Given the basket has 4 milk When I total the basket Then the total should be £3.45
 - Given the basket has 2 butter, 1 bread and 8 milk When I total the basket Then the total should be £9.00
 
+## Test results:
+
 ```
-Test results:
   Group Name: Calculator
   Duration: 0:00:00.135
   0 test(s) failed

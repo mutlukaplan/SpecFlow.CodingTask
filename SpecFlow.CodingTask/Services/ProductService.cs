@@ -22,6 +22,17 @@ namespace SpecFlow.CodingTask.Services
             var products = _database.Products;
             double result = 0;
 
+            result = CalculateAllItemsOnTheBasket(basket, products, result);
+
+            var discount = _promotionService.CalculatePromotion();
+
+            result = result - discount;
+
+            return result;
+        }
+
+        private static double CalculateAllItemsOnTheBasket(Dictionary<int, List<Product>> basket, List<Product> products, double result)
+        {
             foreach (var basketProducts in basket)
             {
                 var productCount = basketProducts.Value.Count;
@@ -32,10 +43,6 @@ namespace SpecFlow.CodingTask.Services
 
                 result = result + (productPrice * productCount);
             }
-
-            var discount = _promotionService.CalculatePromotion();
-
-            result = result - discount;
 
             return result;
         }

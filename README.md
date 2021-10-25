@@ -11,11 +11,11 @@ Dependencies;
 > Warning;  **In order to run specflow tests, you must register their web site to open an account to be connected your visual studio account. And u must have a internet connection.**
 
 ## Problem
-Create a customer basket that allows a customer to add products and provides a total cost of the basket including applicable discounts. Offers can be cumulative
+Create a customer basket that allows a customer to add products and provides a total cost of the basket including applicable discounts. Offers can be cumulative.
 
-Available products:
+### Available products:
 
-### Product Cost
+#### Product Cost
 - Butter £0.80
 - Milk £1.15
 - Bread £1.00

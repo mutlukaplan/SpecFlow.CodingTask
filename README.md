@@ -30,3 +30,4 @@ Test results:
   0 test(s) skipped
   4 test(s) passed
 
+![Test Results](/SpecFlow.CodingTask/ResultImg/coding_task_test_resullt.PNG)

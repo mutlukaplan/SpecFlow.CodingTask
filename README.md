@@ -8,7 +8,7 @@ Dependencies;
 - SpecRun.Runner 3.9.7
 - SpecFlow.Tools.MsBuild.Generation 3.9.22
 
-> Warning;  **In order to run specflow tests, you must register their web site to open an account to be connected your visual studio account. And u must have a internet connection.**
+> Warning;  **In order to run specflow tests, you must register their web site to open an account to be connected your visual studio account. And u must have a internet connection. You also need to install specflow extention for visual studio 2019.**
 
 ## Problem
 Create a customer basket that allows a customer to add products and provides a total cost of the basket including applicable discounts. Offers can be cumulative.
